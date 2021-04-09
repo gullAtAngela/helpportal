@@ -1,12 +1,12 @@
 <?php
 $pageTitle = "Overview";
-include_once '_template/head.php';
+include_once '../_template/head.php';
 ?>
 <body id="helpportal">
 <div class="container">
 	<div class="row justify-content-center">
 		<div class="col-sm-12 col-md-12">
-			<?php include_once '_template/header.php'; ?>
+			<?php include_once '../_template/header.php'; ?>
 			<section class="mainContent">
 				<div class="container">
 					<div class="row mb-4">
@@ -141,4 +141,4 @@ include_once '_template/head.php';
 		</div>
 	</div>
 </div>
-<?php include '_template/footer.php'; ?>
+<?php include '../_template/footer.php'; ?>
