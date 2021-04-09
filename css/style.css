@@ -10,5 +10,74 @@
 
 ******************************************************************/
 /*------------------------------------------------------------------------------
-  GENERAL
+	GENERAL
 ------------------------------------------------------------------------------*/
+body#helpportal {
+	background: url('../img/pexels-madison-inouye-1054018.jpg') no-repeat;
+	background-size: cover;
+	/* background-attachment: fixed; */
+}
+/*------------------------------------------------------------------------------
+	DASHBOARD 
+------------------------------------------------------------------------------*/
+.dashboardItem {
+	position: relative;
+	width: 100%;
+	min-height: 470px;
+	margin-bottom: 20%;
+	border-radius: .625rem;
+	background: #fff;
+	box-shadow: 0 2px 0 rgb(90 97 105 / 11%),
+				0 4px 8px rgb(90 97 105 / 12%),
+				0 10px 10px rgb(90 97 105 / 6%),
+				0 7px 70px rgb(90 97 105 / 10%);
+}
+
+.dashboardItem:hover {
+	box-shadow: 0 4px 0 rgb(90 97 105 / 11%),
+				0 6px 16px rgb(90 97 105 / 12%),
+				0 14px 20px rgb(90 97 105 / 6%),
+				0 10px 100px rgb(90 97 105 / 10%);
+}
+
+.dashboardItem .itemImage {
+	position: relative;
+	min-height: 10rem;
+	width: 100%;
+	border-radius: .625rem .625rem 0 0;
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+
+.dashboardItem.ressource .itemImage {
+	background-size: 95%;
+}
+
+.dashboardItem .itemImage .badge {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.dashboardItem .itemBody {
+	height: 100%;
+	padding: 1.5rem 1.5rem;
+}
+
+.dashboardItem .itemBody a .dashboardTitle {
+	display: block;
+	font-size: 1.3em;
+	font-weight: 600;
+	color: #555;
+	margin-bottom: 4%;
+}
+
+.dashboardItem .itemBody a .dashboardTitle:hover {
+	color: #000;
+}
+
+.marketing-color { background-color: #ffb400; }
+.einkauf-color { background-color: #007bff; }
+.ecommerce-color { background-color: #00b8d8; }
+.ressource-color { background-color: #212529; }
