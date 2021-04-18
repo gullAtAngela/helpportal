@@ -201,6 +201,22 @@ include_once '../_template/head.php';
 
 							<div class="col-sm-12 col-md-3">
 								<div class="dashboardItem ressource">
+									<a target="_blank" href="https://jira.angela.ch/">
+										<div class="itemImage" style="background-image: url('img/jiralogo2.png') ">
+											<div class="badge rounded-pill ressource-color">
+												Ressource
+											</div>
+										</div>
+									</a>
+									<div class="itemBody">
+										<a target="_blank" href="https://jira.angela.ch/"><span class="dashboardTitle">AB Jira Intern</span></a>
+										<p class="dashboardDesc">Ticketsystem für Aufgaben, Bugs, Fehlermeldungen für den Shop werden hiermit verwaltet.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-12 col-md-3">
+								<div class="dashboardItem ressource">
 									<a target="_blank" href="https://jira.dotsource.de/">
 										<div class="itemImage" style="background-image: url('img/jiralogo2.png') ">
 											<div class="badge rounded-pill ressource-color">
@@ -217,19 +233,20 @@ include_once '../_template/head.php';
 
 							<div class="col-sm-12 col-md-3">
 								<div class="dashboardItem ressource">
-									<a target="_blank" href="https://jira.angela.ch/">
-										<div class="itemImage" style="background-image: url('img/jiralogo2.png') ">
+									<a target="_blank" href="https://suite6.emarsys.net/">
+										<div class="itemImage" style="background-image: url('img/emarsys-logo.png') ">
 											<div class="badge rounded-pill ressource-color">
 												Ressource
 											</div>
 										</div>
 									</a>
 									<div class="itemBody">
-										<a target="_blank" href="https://jira.angela.ch/"><span class="dashboardTitle">AB Jira Intern</span></a>
-										<p class="dashboardDesc">Ticketsystem für Aufgaben, Bugs, Fehlermeldungen für den Shop werden hiermit verwaltet.</p>
+										<a target="_blank" href="https://suite6.emarsys.net/"><span class="dashboardTitle">Emarsys Suite</span></a>
+										<p class="dashboardDesc">Tool für alle Marketing Automations und Newsletter sowie Recommendation Themen.</p>
 									</div>
 								</div>
 							</div>
+
 						</div>
 					</div>
 				</section>
